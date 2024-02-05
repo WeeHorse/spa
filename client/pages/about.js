@@ -14,5 +14,5 @@ export default async function about() {
   `
   }
 
-  return html
+  return `<article id="about">${html}</article>`
 }

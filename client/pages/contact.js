@@ -2,6 +2,7 @@ export default function contact() {
 
   return `
     <form id="contact" onsubmit="submitForm(); return false">
+      <h1>Contact</h1>
       <input type="text" name="name" placeholder="Ange ditt namn">
       <input type="email" name="email" placeholder="Ange din email">
       <label>Ange ditt meddelande
